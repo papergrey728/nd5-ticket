@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>なにわ男子 ND5 - チケット価格トラッカー</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+  :root {
+    --bg: #16171d;
+    --panel: #1e2029;
+    --ink: #f2f0ea;
+    --muted: #8b8d97;
+    --jam: #ff6a5c;
+    --ten: #4fd6c4;
+    --sold: #6b6d78;
+    --line: #2c2e39;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+    padding: 32px 20px 60px;
+  }
+  .wrap { max-width: 1020px; margin: 0 auto; }
+  h1 { font-size: 22px; font-weight: 700; margin: 0 0 4px; letter-spacing: 0.01em; }
+  h2 { font-size: 15px; font-weight: 700; margin: 40px 0 14px; color: var(--ink); }
+  .sub { color: var(--muted); font-size: 13px; margin-bottom: 28px; }
+  .cards { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 10px; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 18px 20px; }
+  .card .site {
+    font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em;
+    color: var(--muted); margin-bottom: 10px; display: flex; align-items: center; gap: 6px;
+  }
+  .dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+  .jam-dot { background: var(--jam); }
+  .ten-dot { background: var(--ten); }
+  .price { font-size: 30px; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .price .yen { font-size: 16px; color: var(--muted); font-weight: 500; margin-left: 4px;}
+  .meta { color: var(--muted); font-size: 12px; margin-top: 6px; }
+  .meta .sold-line { color: var(--sold); margin-top: 2px; }
+  .chart-panel { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 20px; height: 340px; }
+  .empty { color: var(--muted); font-size: 14px; text-align: center; padding: 60px 0; }
+  select {
+    background: var(--panel); color: var(--ink); border: 1px solid var(--line);
+    border-radius: 6px; padding: 6px 10px; font-size: 13px; margin-bottom: 14px;
+  }
+  table {
+    width: 100%; border-collapse: collapse; font-size: 13px; background: var(--panel);
+    border: 1px solid var(--line); border-radius: 10px; overflow: hidden;
+  }
+  th, td {
+    padding: 10px 12px; text-align: right; border-bottom: 1px solid var(--line);
+    font-variant-numeric: tabular-nums; white-space: nowrap;
+  }
+  th:first-child, td:first-child { text-align: left; }
+  th { color: var(--muted); font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.04em; }
+  tr:last-child td { border-bottom: none; }
+  .site-head-jam { color: var(--jam); }
+  .site-head-ten { color: var(--ten); }
+  .table-wrap, .cat-table-wrap { overflow-x: auto; }
+  .ended-row td { opacity: 0.55; }
+  .ended-row td:first-child { font-style: italic; }
+  .filter-row { display: flex; gap: 10px; flex-wrap: wrap; }
+  .filter-row select { margin-bottom: 14px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>なにわ男子 LIVE TOUR 2026「ND⁵」 リセール価格トラッカー</h1>
+  <div class="sub">チケジャム ＆ チケテン - 最終更新: データなし</div>
+
+  <div class="cards">
+    <div class="card">
+      <div class="site"><span class="dot jam-dot"></span>チケジャム 出品中 中央値</div>
+      <div class="price">—<span class="yen">円</span></div>
+      <div class="meta">0 件の出品 ・ 最安値 —円 ・ 平均 —円</div>
+    </div>
+    <div class="card">
+      <div class="site"><span class="dot ten-dot"></span>チケテン 出品中 中央値</div>
+      <div class="price">—<span class="yen">円</span></div>
+      <div class="meta">0 件の出品中 ・ 最安値 —円 ・ 平均 —円</div>
+      <div class="meta sold-line">売り切れ: 0 件 ・ 中央値だった —円 ・ 平均 —円</div>
+    </div>
+  </div>
+
+  <h2>全体推移（出品中・全公演日合算・中央値）</h2>
+  <div class="chart-panel">
+    <div class="empty">まだデータがありません。track_prices.py を実行してください。</div>
+  </div>
+
+  <h2>公演日別トレンド（出品中・中央値）</h2>
+  <select id="dateSelect"></select>
+  <div class="chart-panel">
+    <div class="empty">まだデータがありません。</div>
+  </div>
+
+  <h2>選択した公演日のカテゴリー別内訳（出品中・最新）</h2>
+  <div class="cat-table-wrap" id="perDateCategoryWrap">
+    <div class="empty">まだデータがありません。</div>
+  </div>
+
+  <h2>公演日別 最新スナップショット</h2>
+  <div class="filter-row">
+    <select id="categoryFilterSelect"></select>
+    <select id="statusFilterSelect"></select>
+  </div>
+  <div class="table-wrap">
+    <div class="empty">まだデータがありません。</div>
+  </div>
+
+  <h2>カテゴリー別 最新スナップショット（出品中のみ・全公演日合算）</h2>
+  <div class="cat-table-wrap" id="allDatesCategoryWrap">
+    <div class="empty">まだデータがありません。</div>
+  </div>
+</div>
+
+<script>
+const history = [];
+const CATEGORY_ORDER = ["ランダム", "番手", "同行", "QR", "立見", "一般", "制作開放席", "Others"];
+const PAST_DATES = new Set([]);
+const TODAY_STR = null;
+
+function fmt(v) { return (v === null || v === undefined) ? '—' : v.toLocaleString('ja-JP'); }
+function dateLabel(k) { return PAST_DATES.has(k) ? `${k} (終了)` : k; }
+
+// Prefer an exact match on today's date over trusting array order — guards
+// against any stray future-dated entry (e.g. leftover test data) silently
+// outranking the real latest run.
+function getLatestEntry() {
+  if (history.length === 0) return null;
+  if (TODAY_STR) {
+    const exact = history.find(h => h.date === TODAY_STR);
+    if (exact) return exact;
+  }
+  return history[history.length - 1];
+}
+
+if (history.length > 0) {
+  // ---- Overall chart (on-sale only) ----
+  const ctx1 = document.getElementById('overallChart').getContext('2d');
+  new Chart(ctx1, {
+    type: 'line',
+    data: {
+      labels: history.map(r => r.date),
+      datasets: [
+        { label: 'チケジャム 中央値', data: history.map(r => r.ticketjam.overall.median), borderColor: '#ff6a5c', backgroundColor: '#ff6a5c', tension: 0.25, spanGaps: true },
+        { label: 'チケテン 中央値（出品中）', data: history.map(r => r.ticketen.overall.median), borderColor: '#4fd6c4', backgroundColor: '#4fd6c4', tension: 0.25, spanGaps: true },
+      ]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { labels: { color: '#8b8d97' } } },
+      scales: {
+        x: { ticks: { color: '#8b8d97' }, grid: { color: '#2c2e39' } },
+        y: { ticks: { color: '#8b8d97' }, grid: { color: '#2c2e39' } }
+      }
+    }
+  });
+
+  // ---- Per-date trend chart ----
+  const dateKeySet = new Set();
+  history.forEach(day => {
+    ['ticketjam', 'ticketen'].forEach(site => {
+      Object.keys(day[site].by_date || {}).forEach(k => dateKeySet.add(k));
+    });
+  });
+  const dateKeys = Array.from(dateKeySet).sort();
+
+  const select = document.getElementById('dateSelect');
+  dateKeys.forEach(k => {
+    const opt = document.createElement('option');
+    opt.value = k;
+    opt.textContent = dateLabel(k);
+    select.appendChild(opt);
+  });
+
+  let perDateChart = null;
+  function renderPerDateChart(dateKey) {
+    const jamSeries = history.map(day => (day.ticketjam.by_date || {})[dateKey]?.median ?? null);
+    const tenSeries = history.map(day => (day.ticketen.by_date || {})[dateKey]?.median ?? null);
+    const cfg = {
+      type: 'line',
+      data: {
+        labels: history.map(r => r.date),
+        datasets: [
+          { label: 'チケジャム 中央値', data: jamSeries, borderColor: '#ff6a5c', backgroundColor: '#ff6a5c', tension: 0.25, spanGaps: true },
+          { label: 'チケテン 中央値（出品中）', data: tenSeries, borderColor: '#4fd6c4', backgroundColor: '#4fd6c4', tension: 0.25, spanGaps: true },
+        ]
+      },
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        plugins: { legend: { labels: { color: '#8b8d97' } } },
+        scales: {
+          x: { ticks: { color: '#8b8d97' }, grid: { color: '#2c2e39' } },
+          y: { ticks: { color: '#8b8d97' }, grid: { color: '#2c2e39' } }
+        }
+      }
+    };
+    if (perDateChart) { perDateChart.data = cfg.data; perDateChart.update(); }
+    else { perDateChart = new Chart(document.getElementById('perDateChart').getContext('2d'), cfg); }
+  }
+
+  function renderPerDateCategoryTable(dateKey) {
+    const latestForCat = getLatestEntry();
+    const jamCat = (latestForCat.ticketjam.by_date_category || {})[dateKey] || {};
+    const tenCat = (latestForCat.ticketen.by_date_category || {})[dateKey] || {};
+    const rows = CATEGORY_ORDER.map(cat => {
+      const j = jamCat[cat] || {};
+      const t = tenCat[cat] || {};
+      return `<tr>
+        <td>${cat}</td>
+        <td>${fmt(j.min)}</td><td>${fmt(j.median)}</td><td>${fmt(j.avg)}</td><td>${fmt(j.count)}</td>
+        <td>${fmt(t.min)}</td><td>${fmt(t.median)}</td><td>${fmt(t.avg)}</td><td>${fmt(t.count)}</td>
+      </tr>`;
+    }).join('');
+
+    document.getElementById('perDateCategoryWrap').innerHTML = `
+      <table>
+        <thead>
+          <tr>
+            <th rowspan="2">カテゴリー</th>
+            <th colspan="4" class="site-head-jam">チケジャム</th>
+            <th colspan="4" class="site-head-ten">チケテン</th>
+          </tr>
+          <tr>
+            <th>最安値</th><th>中央値</th><th>平均</th><th>件数</th>
+            <th>最安値</th><th>中央値</th><th>平均</th><th>件数</th>
+          </tr>
+        </thead>
+        <tbody>${rows}</tbody>
+      </table>
+    `;
+  }
+
+  if (dateKeys.length > 0) {
+    select.value = dateKeys[0];
+    renderPerDateChart(dateKeys[0]);
+    renderPerDateCategoryTable(dateKeys[0]);
+    select.addEventListener('change', () => {
+      renderPerDateChart(select.value);
+      renderPerDateCategoryTable(select.value);
+    });
+  }
+
+  // ---- Latest snapshot table (per date), filterable by category + status ----
+  const latest = getLatestEntry();
+  const tableDateSet = new Set([
+    ...Object.keys(latest.ticketjam.by_date || {}),
+    ...Object.keys(latest.ticketen.by_date || {}),
+    ...Object.keys(latest.ticketen.by_date_sold || {}),
+  ]);
+  const tableDates = Array.from(tableDateSet).sort();
+
+  const categoryFilterSelect = document.getElementById('categoryFilterSelect');
+  const statusFilterSelect = document.getElementById('statusFilterSelect');
+
+  const CATEGORY_FILTER_OPTIONS = [['__ALL__', 'すべてのカテゴリー'], ...CATEGORY_ORDER.map(c => [c, c])];
+  CATEGORY_FILTER_OPTIONS.forEach(([value, text]) => {
+    const opt = document.createElement('option');
+    opt.value = value;
+    opt.textContent = text;
+    categoryFilterSelect.appendChild(opt);
+  });
+
+  const STATUS_FILTER_OPTIONS = [
+    ['onsale', '出品中のみ'],
+    ['sold', '売り切れのみ（チケテンのみ）'],
+    ['both', '出品中＋売り切れ 両方'],
+  ];
+  STATUS_FILTER_OPTIONS.forEach(([value, text]) => {
+    const opt = document.createElement('option');
+    opt.value = value;
+    opt.textContent = text;
+    statusFilterSelect.appendChild(opt);
+  });
+
+  function getStatsFor(site, dateKey, category, sold) {
+    // site: 'ticketjam' | 'ticketen'; sold: boolean
+    const entry = latest[site];
+    if (category === '__ALL__') {
+      const bucket = sold ? (entry.by_date_sold || {}) : (entry.by_date || {});
+      return bucket[dateKey] || {};
+    }
+    const bucket = sold ? (entry.by_date_category_sold || {}) : (entry.by_date_category || {});
+    return (bucket[dateKey] || {})[category] || {};
+  }
+
+  function renderSnapshotTable() {
+    if (tableDates.length === 0) return;
+    const category = categoryFilterSelect.value;
+    const status = statusFilterSelect.value;
+    const showOnSale = status === 'onsale' || status === 'both';
+    const showSold = status === 'sold' || status === 'both';
+
+    const headCols = [];
+    if (showOnSale) headCols.push({ label: 'チケジャム（出品中）', span: 4, cls: 'site-head-jam' });
+    if (showOnSale) headCols.push({ label: 'チケテン（出品中）', span: 4, cls: 'site-head-ten' });
+    if (showSold) headCols.push({ label: 'チケテン（売り切れ）', span: 4, cls: 'site-head-ten' });
+
+    const subHeadCells = [];
+    for (let i = 0; i < headCols.length; i++) {
+      subHeadCells.push('<th>最安値</th><th>中央値</th><th>平均</th><th>件数</th>');
+    }
+
+    const rows = tableDates.map(dk => {
+      const cells = [];
+      if (showOnSale) {
+        const j = getStatsFor('ticketjam', dk, category, false);
+        cells.push(`<td>${fmt(j.min)}</td><td>${fmt(j.median)}</td><td>${fmt(j.avg)}</td><td>${fmt(j.count)}</td>`);
+      }
+      if (showOnSale) {
+        const t = getStatsFor('ticketen', dk, category, false);
+        cells.push(`<td>${fmt(t.min)}</td><td>${fmt(t.median)}</td><td>${fmt(t.avg)}</td><td>${fmt(t.count)}</td>`);
+      }
+      if (showSold) {
+        const ts = getStatsFor('ticketen', dk, category, true);
+        cells.push(`<td>${fmt(ts.min)}</td><td>${fmt(ts.median)}</td><td>${fmt(ts.avg)}</td><td>${fmt(ts.count)}</td>`);
+      }
+      const rowClass = PAST_DATES.has(dk) ? ' class="ended-row"' : '';
+      return `<tr${rowClass}><td>${dateLabel(dk)}</td>${cells.join('')}</tr>`;
+    }).join('');
+
+    document.querySelector('.table-wrap').innerHTML = `
+      <table>
+        <thead>
+          <tr>
+            <th rowspan="2">公演日時</th>
+            ${headCols.map(c => `<th colspan="${c.span}" class="${c.cls}">${c.label}</th>`).join('')}
+          </tr>
+          <tr>${subHeadCells.join('')}</tr>
+        </thead>
+        <tbody>${rows}</tbody>
+      </table>
+    `;
+  }
+
+  if (tableDates.length > 0) {
+    renderSnapshotTable();
+    categoryFilterSelect.addEventListener('change', renderSnapshotTable);
+    statusFilterSelect.addEventListener('change', renderSnapshotTable);
+  }
+
+  // ---- Category snapshot table (on-sale only, all dates combined) ----
+  const jamCat = latest.ticketjam.by_category || {};
+  const tenCat = latest.ticketen.by_category || {};
+  const catRows = CATEGORY_ORDER.map(cat => {
+    const j = jamCat[cat] || {};
+    const t = tenCat[cat] || {};
+    return `<tr>
+      <td>${cat}</td>
+      <td>${fmt(j.min)}</td><td>${fmt(j.median)}</td><td>${fmt(j.avg)}</td><td>${fmt(j.count)}</td>
+      <td>${fmt(t.min)}</td><td>${fmt(t.median)}</td><td>${fmt(t.avg)}</td><td>${fmt(t.count)}</td>
+    </tr>`;
+  }).join('');
+
+  document.getElementById('allDatesCategoryWrap').innerHTML = `
+    <table>
+      <thead>
+        <tr>
+          <th rowspan="2">カテゴリー</th>
+          <th colspan="4" class="site-head-jam">チケジャム</th>
+          <th colspan="4" class="site-head-ten">チケテン</th>
+        </tr>
+        <tr>
+          <th>最安値</th><th>中央値</th><th>平均</th><th>件数</th>
+          <th>最安値</th><th>中央値</th><th>平均</th><th>件数</th>
+        </tr>
+      </thead>
+      <tbody>${catRows}</tbody>
+    </table>
+  `;
+}
+</script>
+</body>
+</html>
