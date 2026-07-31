@@ -63262,5 +63262,5902 @@
         }
       }
     }
+  },
+  {
+    "date": "2026-07-31",
+    "checked_at": "2026-07-31T10:14:00",
+    "ticketjam": {
+      "overall": {
+        "min": 22000,
+        "median": 65000,
+        "avg": 64122,
+        "count": 232
+      },
+      "overall_sold": null,
+      "by_date": {
+        "2026-08-05 13:00": {
+          "min": 47000,
+          "median": 58000,
+          "avg": 58147,
+          "count": 17
+        },
+        "2026-08-05 18:00": {
+          "min": 22000,
+          "median": 66000,
+          "avg": 60833,
+          "count": 6
+        },
+        "2026-08-06 13:00": {
+          "min": 22500,
+          "median": 68000,
+          "avg": 52991,
+          "count": 11
+        },
+        "2026-08-06 18:00": {
+          "min": 25000,
+          "median": 52000,
+          "avg": 52500,
+          "count": 6
+        },
+        "2026-08-07 13:00": {
+          "min": 33000,
+          "median": 58000,
+          "avg": 60550,
+          "count": 12
+        },
+        "2026-08-07 18:00": {
+          "min": 32000,
+          "median": 72000,
+          "avg": 64056,
+          "count": 9
+        },
+        "2026-08-15 13:30": {
+          "min": 33500,
+          "median": 69000,
+          "avg": 68231,
+          "count": 13
+        },
+        "2026-08-15 18:00": {
+          "min": 33500,
+          "median": 55000,
+          "avg": 58700,
+          "count": 10
+        },
+        "2026-08-16 13:00": {
+          "min": 65000,
+          "median": 70000,
+          "avg": 70143,
+          "count": 7
+        },
+        "2026-08-16 17:30": {
+          "min": 35000,
+          "median": 58778,
+          "avg": 62963,
+          "count": 12
+        },
+        "2026-08-25 18:00": {
+          "min": 39000,
+          "median": 69800,
+          "avg": 69978,
+          "count": 9
+        },
+        "2026-08-26 13:30": {
+          "min": 50000,
+          "median": 62000,
+          "avg": 58000,
+          "count": 3
+        },
+        "2026-08-26 18:00": {
+          "min": 70000,
+          "median": 71500,
+          "avg": 73125,
+          "count": 4
+        },
+        "2026-09-05 13:30": {
+          "min": 45000,
+          "median": 55000,
+          "avg": 59273,
+          "count": 11
+        },
+        "2026-09-05 18:00": {
+          "min": 38500,
+          "median": 48000,
+          "avg": 55269,
+          "count": 13
+        },
+        "2026-09-06 13:00": {
+          "min": 50000,
+          "median": 64999,
+          "avg": 64214,
+          "count": 14
+        },
+        "2026-09-06 17:30": {
+          "min": 38000,
+          "median": 65000,
+          "avg": 67658,
+          "count": 13
+        },
+        "2026-09-19 13:30": {
+          "min": 78000,
+          "median": 78000,
+          "avg": 78000,
+          "count": 1
+        },
+        "2026-09-19 18:00": {
+          "min": 60000,
+          "median": 60000,
+          "avg": 60000,
+          "count": 1
+        },
+        "2026-09-20 13:00": {
+          "min": 77000,
+          "median": 79750,
+          "avg": 79750,
+          "count": 2
+        },
+        "2026-09-21 14:00": {
+          "min": 75000,
+          "median": 75000,
+          "avg": 75000,
+          "count": 1
+        },
+        "2026-10-10 13:30": {
+          "min": 55000,
+          "median": 55500,
+          "avg": 55500,
+          "count": 2
+        },
+        "2026-10-10 18:00": {
+          "min": 70000,
+          "median": 72500,
+          "avg": 72500,
+          "count": 2
+        },
+        "2026-10-11 17:30": {
+          "min": 69000,
+          "median": 81000,
+          "avg": 81000,
+          "count": 2
+        },
+        "2026-10-12 14:00": {
+          "min": 68000,
+          "median": 74000,
+          "avg": 74725,
+          "count": 8
+        },
+        "2026-10-24 13:00": {
+          "min": 45000,
+          "median": 50000,
+          "avg": 50000,
+          "count": 2
+        },
+        "2026-10-24 18:00": {
+          "min": 48000,
+          "median": 57778,
+          "avg": 63092,
+          "count": 6
+        },
+        "2026-10-25 12:30": {
+          "min": 54999,
+          "median": 66500,
+          "avg": 67000,
+          "count": 4
+        },
+        "2026-10-25 17:30": {
+          "min": 78000,
+          "median": 80000,
+          "avg": 81000,
+          "count": 3
+        },
+        "2026-10-26 18:00": {
+          "min": 50000,
+          "median": 54000,
+          "avg": 56125,
+          "count": 8
+        },
+        "2026-10-27 13:00": {
+          "min": 70000,
+          "median": 80000,
+          "avg": 81667,
+          "count": 6
+        },
+        "2026-10-27 18:00": {
+          "min": 55000,
+          "median": 59000,
+          "avg": 63250,
+          "count": 4
+        },
+        "2026-10-28 15:00": {
+          "min": 73000,
+          "median": 75000,
+          "avg": 78600,
+          "count": 10
+        }
+      },
+      "by_date_sold": {},
+      "by_category": {
+        "ランダム": {
+          "min": 33500,
+          "median": 53000,
+          "avg": 54725,
+          "count": 28
+        },
+        "番手": {
+          "min": 45000,
+          "median": 59000,
+          "avg": 61504,
+          "count": 41
+        },
+        "同行": {
+          "min": 31500,
+          "median": 70000,
+          "avg": 66919,
+          "count": 37
+        },
+        "QR": {
+          "min": 38000,
+          "median": 69000,
+          "avg": 68957,
+          "count": 106
+        },
+        "立見": {
+          "min": 22000,
+          "median": 29000,
+          "avg": 28188,
+          "count": 8
+        },
+        "一般": {
+          "min": null,
+          "median": null,
+          "avg": null,
+          "count": 0
+        },
+        "制作開放席": {
+          "min": null,
+          "median": null,
+          "avg": null,
+          "count": 0
+        },
+        "Others": {
+          "min": 50000,
+          "median": 68500,
+          "avg": 67617,
+          "count": 12
+        }
+      },
+      "by_date_category": {
+        "2026-08-05 13:00": {
+          "ランダム": {
+            "min": 51500,
+            "median": 51500,
+            "avg": 51500,
+            "count": 1
+          },
+          "番手": {
+            "min": 55000,
+            "median": 58000,
+            "avg": 57333,
+            "count": 3
+          },
+          "同行": {
+            "min": 47000,
+            "median": 59000,
+            "avg": 57800,
+            "count": 10
+          },
+          "QR": {
+            "min": 53000,
+            "median": 66500,
+            "avg": 66500,
+            "count": 2
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 54000,
+            "median": 54000,
+            "avg": 54000,
+            "count": 1
+          }
+        },
+        "2026-08-05 18:00": {
+          "ランダム": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "番手": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "同行": {
+            "min": 80000,
+            "median": 80000,
+            "avg": 80000,
+            "count": 1
+          },
+          "QR": {
+            "min": 64000,
+            "median": 64500,
+            "avg": 64500,
+            "count": 2
+          },
+          "立見": {
+            "min": 22000,
+            "median": 22000,
+            "avg": 22000,
+            "count": 1
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 67000,
+            "median": 67000,
+            "avg": 67000,
+            "count": 2
+          }
+        },
+        "2026-08-06 13:00": {
+          "ランダム": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "番手": {
+            "min": 68500,
+            "median": 68500,
+            "avg": 68500,
+            "count": 1
+          },
+          "同行": {
+            "min": 31500,
+            "median": 40750,
+            "avg": 40750,
+            "count": 2
+          },
+          "QR": {
+            "min": 68000,
+            "median": 68500,
+            "avg": 68500,
+            "count": 2
+          },
+          "立見": {
+            "min": 22500,
+            "median": 27000,
+            "avg": 26833,
+            "count": 3
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 70000,
+            "median": 70400,
+            "avg": 71800,
+            "count": 3
+          }
+        },
+        "2026-08-06 18:00": {
+          "ランダム": {
+            "min": 45000,
+            "median": 45000,
+            "avg": 45000,
+            "count": 1
+          },
+          "番手": {
+            "min": 54000,
+            "median": 60000,
+            "avg": 60000,
+            "count": 2
+          },
+          "同行": {
+            "min": 75000,
+            "median": 75000,
+            "avg": 75000,
+            "count": 1
+          },
+          "QR": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "立見": {
+            "min": 25000,
+            "median": 25000,
+            "avg": 25000,
+            "count": 1
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 50000,
+            "median": 50000,
+            "avg": 50000,
+            "count": 1
+          }
+        },
+        "2026-08-07 13:00": {
+          "ランダム": {
+            "min": 45000,
+            "median": 50000,
+            "avg": 50000,
+            "count": 2
+          },
+          "番手": {
+            "min": 49800,
+            "median": 66000,
+            "avg": 63720,
+            "count": 5
+          },
+          "同行": {
+            "min": 60000,
+            "median": 67500,
+            "avg": 67500,
+            "count": 2
+          },
+          "QR": {
+            "min": 56000,
+            "median": 70000,
+            "avg": 70000,
+            "count": 2
+          },
+          "立見": {
+            "min": 33000,
+            "median": 33000,
+            "avg": 33000,
+            "count": 1
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          }
+        },
+        "2026-08-07 18:00": {
+          "ランダム": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "番手": {
+            "min": 65000,
+            "median": 65000,
+            "avg": 65000,
+            "count": 1
+          },
+          "同行": {
+            "min": 72000,
+            "median": 76750,
+            "avg": 76750,
+            "count": 2
+          },
+          "QR": {
+            "min": 75000,
+            "median": 80000,
+            "avg": 80000,
+            "count": 2
+          },
+          "立見": {
+            "min": 32000,
+            "median": 32500,
+            "avg": 32500,
+            "count": 2
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 50000,
+            "median": 66500,
+            "avg": 66500,
+            "count": 2
+          }
+        },
+        "2026-08-15 13:30": {
+          "ランダム": {
+            "min": 33500,
+            "median": 49000,
+            "avg": 56167,
+            "count": 3
+          },
+          "番手": {
+            "min": 58500,
+            "median": 64000,
+            "avg": 63875,
+            "count": 4
+          },
+          "同行": {
+            "min": 59999,
+            "median": 59999,
+            "avg": 59999,
+            "count": 1
+          },
+          "QR": {
+            "min": 70000,
+            "median": 83000,
+            "avg": 80600,
+            "count": 5
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          }
+        },
+        "2026-08-15 18:00": {
+          "ランダム": {
+            "min": 33500,
+            "median": 43000,
+            "avg": 49875,
+            "count": 4
+          },
+          "番手": {
+            "min": 50000,
+            "median": 56750,
+            "avg": 59625,
+            "count": 4
+          },
+          "同行": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "QR": {
+            "min": 60000,
+            "median": 74500,
+            "avg": 74500,
+            "count": 2
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          }
+        },
+        "2026-08-16 13:00": {
+          "ランダム": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "番手": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "同行": {
+            "min": 66000,
+            "median": 70000,
+            "avg": 68667,
+            "count": 3
+          },
+          "QR": {
+            "min": 65000,
+            "median": 70000,
+            "avg": 71250,
+            "count": 4
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          }
+        },
+        "2026-08-16 17:30": {
+          "ランダム": {
+            "min": 35000,
+            "median": 46500,
+            "avg": 45750,
+            "count": 4
+          },
+          "番手": {
+            "min": 55000,
+            "median": 55555,
+            "avg": 65185,
+            "count": 3
+          },
+          "同行": {
+            "min": 70000,
+            "median": 70000,
+            "avg": 70000,
+            "count": 1
+          },
+          "QR": {
+            "min": 62000,
+            "median": 78500,
+            "avg": 76750,
+            "count": 4
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          }
+        },
+        "2026-08-25 18:00": {
+          "ランダム": {
+            "min": 39000,
+            "median": 69800,
+            "avg": 62933,
+            "count": 3
+          },
+          "番手": {
+            "min": 52500,
+            "median": 55250,
+            "avg": 55250,
+            "count": 2
+          },
+          "同行": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "QR": {
+            "min": 69000,
+            "median": 81250,
+            "avg": 82625,
+            "count": 4
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          }
+        },
+        "2026-08-26 13:30": {
+          "ランダム": {
+            "min": 50000,
+            "median": 50000,
+            "avg": 50000,
+            "count": 1
+          },
+          "番手": {
+            "min": 62000,
+            "median": 62000,
+            "avg": 62000,
+            "count": 1
+          },
+          "同行": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "QR": {
+            "min": 62000,
+            "median": 62000,
+            "avg": 62000,
+            "count": 1
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          }
+        },
+        "2026-08-26 18:00": {
+          "ランダム": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "番手": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "同行": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "QR": {
+            "min": 70000,
+            "median": 71500,
+            "avg": 73125,
+            "count": 4
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          }
+        },
+        "2026-09-05 13:30": {
+          "ランダム": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "番手": {
+            "min": 45000,
+            "median": 50000,
+            "avg": 50000,
+            "count": 4
+          },
+          "同行": {
+            "min": 60000,
+            "median": 70000,
+            "avg": 70000,
+            "count": 2
+          },
+          "QR": {
+            "min": 49999,
+            "median": 57000,
+            "avg": 62400,
+            "count": 5
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          }
+        },
+        "2026-09-05 18:00": {
+          "ランダム": {
+            "min": 46000,
+            "median": 54000,
+            "avg": 58667,
+            "count": 3
+          },
+          "番手": {
+            "min": 45000,
+            "median": 48000,
+            "avg": 59333,
+            "count": 3
+          },
+          "同行": {
+            "min": 55000,
+            "median": 55000,
+            "avg": 55000,
+            "count": 1
+          },
+          "QR": {
+            "min": 38500,
+            "median": 44000,
+            "avg": 51583,
+            "count": 6
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          }
+        },
+        "2026-09-06 13:00": {
+          "ランダム": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "番手": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "同行": {
+            "min": 50000,
+            "median": 50000,
+            "avg": 50000,
+            "count": 1
+          },
+          "QR": {
+            "min": 50000,
+            "median": 64999,
+            "avg": 65308,
+            "count": 13
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          }
+        },
+        "2026-09-06 17:30": {
+          "ランダム": {
+            "min": 52000,
+            "median": 52000,
+            "avg": 52000,
+            "count": 1
+          },
+          "番手": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "同行": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "QR": {
+            "min": 38000,
+            "median": 65000,
+            "avg": 68963,
+            "count": 12
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          }
+        },
+        "2026-09-19 13:30": {
+          "ランダム": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "番手": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "同行": {
+            "min": 78000,
+            "median": 78000,
+            "avg": 78000,
+            "count": 1
+          },
+          "QR": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          }
+        },
+        "2026-09-19 18:00": {
+          "ランダム": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "番手": {
+            "min": 60000,
+            "median": 60000,
+            "avg": 60000,
+            "count": 1
+          },
+          "同行": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "QR": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          }
+        },
+        "2026-09-20 13:00": {
+          "ランダム": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "番手": {
+            "min": 77000,
+            "median": 79750,
+            "avg": 79750,
+            "count": 2
+          },
+          "同行": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "QR": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          }
+        },
+        "2026-09-21 14:00": {
+          "ランダム": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "番手": {
+            "min": 75000,
+            "median": 75000,
+            "avg": 75000,
+            "count": 1
+          },
+          "同行": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "QR": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          }
+        },
+        "2026-10-10 13:30": {
+          "ランダム": {
+            "min": 55000,
+            "median": 55500,
+            "avg": 55500,
+            "count": 2
+          },
+          "番手": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "同行": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "QR": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          }
+        },
+        "2026-10-10 18:00": {
+          "ランダム": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "番手": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "同行": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "QR": {
+            "min": 70000,
+            "median": 72500,
+            "avg": 72500,
+            "count": 2
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          }
+        },
+        "2026-10-11 17:30": {
+          "ランダム": {
+            "min": 69000,
+            "median": 69000,
+            "avg": 69000,
+            "count": 1
+          },
+          "番手": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "同行": {
+            "min": 93000,
+            "median": 93000,
+            "avg": 93000,
+            "count": 1
+          },
+          "QR": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          }
+        },
+        "2026-10-12 14:00": {
+          "ランダム": {
+            "min": 68000,
+            "median": 68000,
+            "avg": 68000,
+            "count": 1
+          },
+          "番手": {
+            "min": 70000,
+            "median": 70000,
+            "avg": 70000,
+            "count": 1
+          },
+          "同行": {
+            "min": 74000,
+            "median": 79500,
+            "avg": 78250,
+            "count": 4
+          },
+          "QR": {
+            "min": 72800,
+            "median": 73400,
+            "avg": 73400,
+            "count": 2
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          }
+        },
+        "2026-10-24 13:00": {
+          "ランダム": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "番手": {
+            "min": 45000,
+            "median": 45000,
+            "avg": 45000,
+            "count": 1
+          },
+          "同行": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "QR": {
+            "min": 55000,
+            "median": 55000,
+            "avg": 55000,
+            "count": 1
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          }
+        },
+        "2026-10-24 18:00": {
+          "ランダム": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "番手": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "同行": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "QR": {
+            "min": 48000,
+            "median": 55278,
+            "avg": 59639,
+            "count": 4
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 60000,
+            "median": 70000,
+            "avg": 70000,
+            "count": 2
+          }
+        },
+        "2026-10-25 12:30": {
+          "ランダム": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "番手": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "同行": {
+            "min": 70000,
+            "median": 75000,
+            "avg": 75000,
+            "count": 2
+          },
+          "QR": {
+            "min": 54999,
+            "median": 59000,
+            "avg": 59000,
+            "count": 2
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          }
+        },
+        "2026-10-25 17:30": {
+          "ランダム": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "番手": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "同行": {
+            "min": 78000,
+            "median": 78000,
+            "avg": 78000,
+            "count": 1
+          },
+          "QR": {
+            "min": 80000,
+            "median": 80000,
+            "avg": 80000,
+            "count": 1
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 85000,
+            "median": 85000,
+            "avg": 85000,
+            "count": 1
+          }
+        },
+        "2026-10-26 18:00": {
+          "ランダム": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "番手": {
+            "min": 53000,
+            "median": 53000,
+            "avg": 53000,
+            "count": 1
+          },
+          "同行": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "QR": {
+            "min": 50000,
+            "median": 55000,
+            "avg": 56571,
+            "count": 7
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          }
+        },
+        "2026-10-27 13:00": {
+          "ランダム": {
+            "min": 70000,
+            "median": 70000,
+            "avg": 70000,
+            "count": 1
+          },
+          "番手": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "同行": {
+            "min": 80000,
+            "median": 80000,
+            "avg": 80000,
+            "count": 1
+          },
+          "QR": {
+            "min": 75000,
+            "median": 82500,
+            "avg": 85000,
+            "count": 4
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          }
+        },
+        "2026-10-27 18:00": {
+          "ランダム": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "番手": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "同行": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "QR": {
+            "min": 55000,
+            "median": 59000,
+            "avg": 63250,
+            "count": 4
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          }
+        },
+        "2026-10-28 15:00": {
+          "ランダム": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "番手": {
+            "min": 75000,
+            "median": 75000,
+            "avg": 75000,
+            "count": 1
+          },
+          "同行": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "QR": {
+            "min": 73000,
+            "median": 75000,
+            "avg": 79000,
+            "count": 9
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          }
+        }
+      },
+      "by_date_category_sold": {}
+    },
+    "ticketen": {
+      "overall": {
+        "min": 10500,
+        "median": 60000,
+        "avg": 59459,
+        "count": 1262
+      },
+      "overall_sold": {
+        "min": 2500,
+        "median": 55000,
+        "avg": 50139,
+        "count": 464
+      },
+      "by_date": {
+        "2026-08-05 13:00": {
+          "min": 20600,
+          "median": 55000,
+          "avg": 56002,
+          "count": 55
+        },
+        "2026-08-05 18:00": {
+          "min": 10500,
+          "median": 54800,
+          "avg": 52468,
+          "count": 57
+        },
+        "2026-08-06 13:00": {
+          "min": 22000,
+          "median": 60000,
+          "avg": 55686,
+          "count": 59
+        },
+        "2026-08-06 18:00": {
+          "min": 24000,
+          "median": 60000,
+          "avg": 56567,
+          "count": 45
+        },
+        "2026-08-07 13:00": {
+          "min": 25000,
+          "median": 65000,
+          "avg": 60093,
+          "count": 43
+        },
+        "2026-08-07 18:00": {
+          "min": 10800,
+          "median": 65000,
+          "avg": 59711,
+          "count": 70
+        },
+        "2026-08-15 13:30": {
+          "min": 23000,
+          "median": 60000,
+          "avg": 56800,
+          "count": 57
+        },
+        "2026-08-15 18:00": {
+          "min": 23000,
+          "median": 65000,
+          "avg": 59004,
+          "count": 65
+        },
+        "2026-08-16 13:00": {
+          "min": 25000,
+          "median": 64000,
+          "avg": 60884,
+          "count": 61
+        },
+        "2026-08-16 17:30": {
+          "min": 20000,
+          "median": 57000,
+          "avg": 52525,
+          "count": 56
+        },
+        "2026-08-25 18:00": {
+          "min": 32999,
+          "median": 61500,
+          "avg": 59655,
+          "count": 42
+        },
+        "2026-08-26 13:30": {
+          "min": 36500,
+          "median": 72500,
+          "avg": 65281,
+          "count": 16
+        },
+        "2026-08-26 18:00": {
+          "min": 30000,
+          "median": 69000,
+          "avg": 61470,
+          "count": 46
+        },
+        "2026-09-05 13:30": {
+          "min": 28000,
+          "median": 54000,
+          "avg": 52419,
+          "count": 47
+        },
+        "2026-09-05 18:00": {
+          "min": 27000,
+          "median": 50000,
+          "avg": 52204,
+          "count": 54
+        },
+        "2026-09-06 13:00": {
+          "min": 24000,
+          "median": 55000,
+          "avg": 54496,
+          "count": 52
+        },
+        "2026-09-06 17:30": {
+          "min": 24000,
+          "median": 50000,
+          "avg": 49007,
+          "count": 57
+        },
+        "2026-09-19 13:30": {
+          "min": 31100,
+          "median": 71000,
+          "avg": 67422,
+          "count": 18
+        },
+        "2026-09-19 18:00": {
+          "min": 32000,
+          "median": 80000,
+          "avg": 74500,
+          "count": 20
+        },
+        "2026-09-20 13:00": {
+          "min": 10500,
+          "median": 78000,
+          "avg": 74684,
+          "count": 25
+        },
+        "2026-09-20 17:30": {
+          "min": 20000,
+          "median": 79000,
+          "avg": 63577,
+          "count": 26
+        },
+        "2026-09-21 14:00": {
+          "min": 18000,
+          "median": 67500,
+          "avg": 67161,
+          "count": 28
+        },
+        "2026-10-10 13:30": {
+          "min": 32000,
+          "median": 70000,
+          "avg": 65750,
+          "count": 14
+        },
+        "2026-10-10 18:00": {
+          "min": 32000,
+          "median": 68000,
+          "avg": 66091,
+          "count": 11
+        },
+        "2026-10-11 13:00": {
+          "min": 32000,
+          "median": 72500,
+          "avg": 68167,
+          "count": 12
+        },
+        "2026-10-11 17:30": {
+          "min": 32000,
+          "median": 78000,
+          "avg": 69667,
+          "count": 15
+        },
+        "2026-10-12 14:00": {
+          "min": 30000,
+          "median": 70000,
+          "avg": 64750,
+          "count": 26
+        },
+        "2026-10-24 13:00": {
+          "min": 36500,
+          "median": 60000,
+          "avg": 60647,
+          "count": 17
+        },
+        "2026-10-24 18:00": {
+          "min": 33000,
+          "median": 60000,
+          "avg": 58476,
+          "count": 21
+        },
+        "2026-10-25 12:30": {
+          "min": 30000,
+          "median": 54000,
+          "avg": 54357,
+          "count": 14
+        },
+        "2026-10-25 17:30": {
+          "min": 38500,
+          "median": 76000,
+          "avg": 72529,
+          "count": 14
+        },
+        "2026-10-26 18:00": {
+          "min": 20683,
+          "median": 60000,
+          "avg": 58024,
+          "count": 28
+        },
+        "2026-10-27 13:00": {
+          "min": 34000,
+          "median": 69000,
+          "avg": 65938,
+          "count": 16
+        },
+        "2026-10-27 18:00": {
+          "min": 36000,
+          "median": 60000,
+          "avg": 64922,
+          "count": 26
+        },
+        "2026-10-28 15:00": {
+          "min": 30000,
+          "median": 75000,
+          "avg": 74590,
+          "count": 49
+        }
+      },
+      "by_date_sold": {
+        "2026-08-05 13:00": {
+          "min": 2500,
+          "median": 34900,
+          "avg": 34131,
+          "count": 35
+        },
+        "2026-08-05 18:00": {
+          "min": 2980,
+          "median": 52000,
+          "avg": 43353,
+          "count": 51
+        },
+        "2026-08-06 13:00": {
+          "min": 3500,
+          "median": 50000,
+          "avg": 38693,
+          "count": 33
+        },
+        "2026-08-06 18:00": {
+          "min": 3500,
+          "median": 55000,
+          "avg": 43270,
+          "count": 37
+        },
+        "2026-08-07 13:00": {
+          "min": 4500,
+          "median": 58000,
+          "avg": 46119,
+          "count": 36
+        },
+        "2026-08-07 18:00": {
+          "min": 3110,
+          "median": 59500,
+          "avg": 49264,
+          "count": 62
+        },
+        "2026-08-15 13:30": {
+          "min": 45000,
+          "median": 66100,
+          "avg": 65456,
+          "count": 18
+        },
+        "2026-08-15 18:00": {
+          "min": 31000,
+          "median": 68000,
+          "avg": 61891,
+          "count": 32
+        },
+        "2026-08-16 13:00": {
+          "min": 25000,
+          "median": 60000,
+          "avg": 59714,
+          "count": 21
+        },
+        "2026-08-16 17:30": {
+          "min": 20000,
+          "median": 50000,
+          "avg": 52611,
+          "count": 16
+        },
+        "2026-08-25 18:00": {
+          "min": 59000,
+          "median": 62000,
+          "avg": 63500,
+          "count": 6
+        },
+        "2026-08-26 13:30": {
+          "min": 40000,
+          "median": 59000,
+          "avg": 58250,
+          "count": 4
+        },
+        "2026-08-26 18:00": {
+          "min": 40000,
+          "median": 60000,
+          "avg": 59167,
+          "count": 12
+        },
+        "2026-09-05 13:30": {
+          "min": 11375,
+          "median": 49000,
+          "avg": 44768,
+          "count": 7
+        },
+        "2026-09-05 18:00": {
+          "min": 22000,
+          "median": 50000,
+          "avg": 47818,
+          "count": 11
+        },
+        "2026-09-06 13:00": {
+          "min": 29800,
+          "median": 55000,
+          "avg": 47533,
+          "count": 9
+        },
+        "2026-09-06 17:30": {
+          "min": 43000,
+          "median": 49000,
+          "avg": 49833,
+          "count": 6
+        },
+        "2026-09-19 13:30": {
+          "min": 43000,
+          "median": 45000,
+          "avg": 52417,
+          "count": 6
+        },
+        "2026-09-19 18:00": {
+          "min": 41365,
+          "median": 47000,
+          "avg": 51394,
+          "count": 6
+        },
+        "2026-09-20 13:00": {
+          "min": 45000,
+          "median": 57500,
+          "avg": 59250,
+          "count": 4
+        },
+        "2026-09-20 17:30": {
+          "min": 62000,
+          "median": 69750,
+          "avg": 70125,
+          "count": 4
+        },
+        "2026-09-21 14:00": {
+          "min": 41365,
+          "median": 75000,
+          "avg": 68481,
+          "count": 7
+        },
+        "2026-10-10 13:30": {
+          "min": 63000,
+          "median": 63000,
+          "avg": 63000,
+          "count": 1
+        },
+        "2026-10-10 18:00": {
+          "min": 50000,
+          "median": 62500,
+          "avg": 62500,
+          "count": 2
+        },
+        "2026-10-11 13:00": {
+          "min": 68000,
+          "median": 70000,
+          "avg": 71333,
+          "count": 6
+        },
+        "2026-10-11 17:30": {
+          "min": 45000,
+          "median": 75000,
+          "avg": 66200,
+          "count": 5
+        },
+        "2026-10-12 14:00": {
+          "min": 64000,
+          "median": 64500,
+          "avg": 64500,
+          "count": 2
+        },
+        "2026-10-24 13:00": {
+          "min": 60000,
+          "median": 60000,
+          "avg": 60000,
+          "count": 1
+        },
+        "2026-10-24 18:00": {
+          "min": 25000,
+          "median": 35500,
+          "avg": 36500,
+          "count": 4
+        },
+        "2026-10-26 18:00": {
+          "min": 54000,
+          "median": 54000,
+          "avg": 54000,
+          "count": 1
+        },
+        "2026-10-27 13:00": {
+          "min": 28000,
+          "median": 35000,
+          "avg": 36000,
+          "count": 5
+        },
+        "2026-10-27 18:00": {
+          "min": 50000,
+          "median": 50000,
+          "avg": 50000,
+          "count": 1
+        },
+        "2026-10-28 15:00": {
+          "min": 50000,
+          "median": 75000,
+          "avg": 72017,
+          "count": 13
+        }
+      },
+      "by_category": {
+        "ランダム": {
+          "min": 10500,
+          "median": 36000,
+          "avg": 43084,
+          "count": 270
+        },
+        "番手": {
+          "min": 10800,
+          "median": 57000,
+          "avg": 58644,
+          "count": 359
+        },
+        "同行": {
+          "min": 15000,
+          "median": 70000,
+          "avg": 68835,
+          "count": 245
+        },
+        "QR": {
+          "min": 45000,
+          "median": 68000,
+          "avg": 67845,
+          "count": 289
+        },
+        "立見": {
+          "min": 20600,
+          "median": 29999,
+          "avg": 27969,
+          "count": 13
+        },
+        "一般": {
+          "min": null,
+          "median": null,
+          "avg": null,
+          "count": 0
+        },
+        "制作開放席": {
+          "min": null,
+          "median": null,
+          "avg": null,
+          "count": 0
+        },
+        "Others": {
+          "min": 10500,
+          "median": 64500,
+          "avg": 64140,
+          "count": 86
+        }
+      },
+      "by_date_category": {
+        "2026-08-05 13:00": {
+          "ランダム": {
+            "min": 30000,
+            "median": 34000,
+            "avg": 37438,
+            "count": 8
+          },
+          "番手": {
+            "min": 48000,
+            "median": 51500,
+            "avg": 53611,
+            "count": 9
+          },
+          "同行": {
+            "min": 50000,
+            "median": 65000,
+            "avg": 65146,
+            "count": 17
+          },
+          "QR": {
+            "min": 48000,
+            "median": 70000,
+            "avg": 65000,
+            "count": 11
+          },
+          "立見": {
+            "min": 20600,
+            "median": 21300,
+            "avg": 21300,
+            "count": 2
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 39000,
+            "median": 50000,
+            "avg": 54125,
+            "count": 8
+          }
+        },
+        "2026-08-05 18:00": {
+          "ランダム": {
+            "min": 32000,
+            "median": 40000,
+            "avg": 42382,
+            "count": 17
+          },
+          "番手": {
+            "min": 44000,
+            "median": 50000,
+            "avg": 53075,
+            "count": 12
+          },
+          "同行": {
+            "min": 15000,
+            "median": 60000,
+            "avg": 62214,
+            "count": 14
+          },
+          "QR": {
+            "min": 53000,
+            "median": 60000,
+            "avg": 59725,
+            "count": 8
+          },
+          "立見": {
+            "min": 30000,
+            "median": 30000,
+            "avg": 30000,
+            "count": 1
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 10500,
+            "median": 65000,
+            "avg": 50900,
+            "count": 5
+          }
+        },
+        "2026-08-06 13:00": {
+          "ランダム": {
+            "min": 30000,
+            "median": 35000,
+            "avg": 35857,
+            "count": 7
+          },
+          "番手": {
+            "min": 48000,
+            "median": 53500,
+            "avg": 55750,
+            "count": 12
+          },
+          "同行": {
+            "min": 52000,
+            "median": 62500,
+            "avg": 62222,
+            "count": 18
+          },
+          "QR": {
+            "min": 54000,
+            "median": 60000,
+            "avg": 61300,
+            "count": 15
+          },
+          "立見": {
+            "min": 22000,
+            "median": 33500,
+            "avg": 30750,
+            "count": 4
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 60000,
+            "median": 70000,
+            "avg": 67667,
+            "count": 3
+          }
+        },
+        "2026-08-06 18:00": {
+          "ランダム": {
+            "min": 27500,
+            "median": 32000,
+            "avg": 31714,
+            "count": 7
+          },
+          "番手": {
+            "min": 43000,
+            "median": 59000,
+            "avg": 57346,
+            "count": 13
+          },
+          "同行": {
+            "min": 60000,
+            "median": 65500,
+            "avg": 65300,
+            "count": 10
+          },
+          "QR": {
+            "min": 50000,
+            "median": 61500,
+            "avg": 62800,
+            "count": 10
+          },
+          "立見": {
+            "min": 24000,
+            "median": 24000,
+            "avg": 24000,
+            "count": 1
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 63000,
+            "median": 65000,
+            "avg": 68250,
+            "count": 4
+          }
+        },
+        "2026-08-07 13:00": {
+          "ランダム": {
+            "min": 30000,
+            "median": 37500,
+            "avg": 41917,
+            "count": 12
+          },
+          "番手": {
+            "min": 55000,
+            "median": 64990,
+            "avg": 65872,
+            "count": 8
+          },
+          "同行": {
+            "min": 70000,
+            "median": 74250,
+            "avg": 74958,
+            "count": 12
+          },
+          "QR": {
+            "min": 62000,
+            "median": 65500,
+            "avg": 66188,
+            "count": 8
+          },
+          "立見": {
+            "min": 25000,
+            "median": 30000,
+            "avg": 30000,
+            "count": 2
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 65000,
+            "median": 65000,
+            "avg": 65000,
+            "count": 1
+          }
+        },
+        "2026-08-07 18:00": {
+          "ランダム": {
+            "min": 33000,
+            "median": 36000,
+            "avg": 39062,
+            "count": 16
+          },
+          "番手": {
+            "min": 10800,
+            "median": 65000,
+            "avg": 64867,
+            "count": 24
+          },
+          "同行": {
+            "min": 64000,
+            "median": 70000,
+            "avg": 73417,
+            "count": 12
+          },
+          "QR": {
+            "min": 64980,
+            "median": 67000,
+            "avg": 69152,
+            "count": 13
+          },
+          "立見": {
+            "min": 22000,
+            "median": 29999,
+            "avg": 28000,
+            "count": 3
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 64000,
+            "median": 67000,
+            "avg": 67000,
+            "count": 2
+          }
+        },
+        "2026-08-15 13:30": {
+          "ランダム": {
+            "min": 23000,
+            "median": 35000,
+            "avg": 43135,
+            "count": 20
+          },
+          "番手": {
+            "min": 25000,
+            "median": 55000,
+            "avg": 55493,
+            "count": 15
+          },
+          "同行": {
+            "min": 59000,
+            "median": 68000,
+            "avg": 67300,
+            "count": 10
+          },
+          "QR": {
+            "min": 60000,
+            "median": 73000,
+            "avg": 72682,
+            "count": 11
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 70000,
+            "median": 70000,
+            "avg": 70000,
+            "count": 1
+          }
+        },
+        "2026-08-15 18:00": {
+          "ランダム": {
+            "min": 25000,
+            "median": 30000,
+            "avg": 36714,
+            "count": 14
+          },
+          "番手": {
+            "min": 23000,
+            "median": 60000,
+            "avg": 60526,
+            "count": 29
+          },
+          "同行": {
+            "min": 55000,
+            "median": 70000,
+            "avg": 67000,
+            "count": 9
+          },
+          "QR": {
+            "min": 58000,
+            "median": 72000,
+            "avg": 71636,
+            "count": 11
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 85000,
+            "median": 87500,
+            "avg": 87500,
+            "count": 2
+          }
+        },
+        "2026-08-16 13:00": {
+          "ランダム": {
+            "min": 25000,
+            "median": 31000,
+            "avg": 34682,
+            "count": 11
+          },
+          "番手": {
+            "min": 38000,
+            "median": 55000,
+            "avg": 60416,
+            "count": 25
+          },
+          "同行": {
+            "min": 65000,
+            "median": 65500,
+            "avg": 66750,
+            "count": 8
+          },
+          "QR": {
+            "min": 55000,
+            "median": 69000,
+            "avg": 71267,
+            "count": 15
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 69000,
+            "median": 109500,
+            "avg": 109500,
+            "count": 2
+          }
+        },
+        "2026-08-16 17:30": {
+          "ランダム": {
+            "min": 20000,
+            "median": 27500,
+            "avg": 32243,
+            "count": 14
+          },
+          "番手": {
+            "min": 31024,
+            "median": 50500,
+            "avg": 51335,
+            "count": 18
+          },
+          "同行": {
+            "min": 60000,
+            "median": 70000,
+            "avg": 67600,
+            "count": 5
+          },
+          "QR": {
+            "min": 50000,
+            "median": 65000,
+            "avg": 64133,
+            "count": 15
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 62000,
+            "median": 67000,
+            "avg": 66500,
+            "count": 4
+          }
+        },
+        "2026-08-25 18:00": {
+          "ランダム": {
+            "min": 32999,
+            "median": 38000,
+            "avg": 43300,
+            "count": 15
+          },
+          "番手": {
+            "min": 54000,
+            "median": 60000,
+            "avg": 65333,
+            "count": 9
+          },
+          "同行": {
+            "min": 70000,
+            "median": 75000,
+            "avg": 74000,
+            "count": 6
+          },
+          "QR": {
+            "min": 61000,
+            "median": 68000,
+            "avg": 69273,
+            "count": 11
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 62000,
+            "median": 62000,
+            "avg": 62000,
+            "count": 1
+          }
+        },
+        "2026-08-26 13:30": {
+          "ランダム": {
+            "min": 36500,
+            "median": 37000,
+            "avg": 38500,
+            "count": 3
+          },
+          "番手": {
+            "min": 50000,
+            "median": 62500,
+            "avg": 62500,
+            "count": 4
+          },
+          "同行": {
+            "min": 63000,
+            "median": 75000,
+            "avg": 72667,
+            "count": 3
+          },
+          "QR": {
+            "min": 70000,
+            "median": 76000,
+            "avg": 76200,
+            "count": 5
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 80000,
+            "median": 80000,
+            "avg": 80000,
+            "count": 1
+          }
+        },
+        "2026-08-26 18:00": {
+          "ランダム": {
+            "min": 30000,
+            "median": 35000,
+            "avg": 40046,
+            "count": 13
+          },
+          "番手": {
+            "min": 52000,
+            "median": 65000,
+            "avg": 65100,
+            "count": 10
+          },
+          "同行": {
+            "min": 61000,
+            "median": 73500,
+            "avg": 72167,
+            "count": 12
+          },
+          "QR": {
+            "min": 62000,
+            "median": 70000,
+            "avg": 72000,
+            "count": 10
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 70000,
+            "median": 70000,
+            "avg": 70000,
+            "count": 1
+          }
+        },
+        "2026-09-05 13:30": {
+          "ランダム": {
+            "min": 28000,
+            "median": 36500,
+            "avg": 41838,
+            "count": 8
+          },
+          "番手": {
+            "min": 38000,
+            "median": 48500,
+            "avg": 49531,
+            "count": 16
+          },
+          "同行": {
+            "min": 50000,
+            "median": 58000,
+            "avg": 58000,
+            "count": 8
+          },
+          "QR": {
+            "min": 45000,
+            "median": 55000,
+            "avg": 59318,
+            "count": 11
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 48000,
+            "median": 55000,
+            "avg": 55000,
+            "count": 4
+          }
+        },
+        "2026-09-05 18:00": {
+          "ランダム": {
+            "min": 27000,
+            "median": 31250,
+            "avg": 40000,
+            "count": 8
+          },
+          "番手": {
+            "min": 35000,
+            "median": 48000,
+            "avg": 49190,
+            "count": 21
+          },
+          "同行": {
+            "min": 53000,
+            "median": 60000,
+            "avg": 59833,
+            "count": 6
+          },
+          "QR": {
+            "min": 48000,
+            "median": 55000,
+            "avg": 58067,
+            "count": 15
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 53000,
+            "median": 60500,
+            "avg": 59000,
+            "count": 4
+          }
+        },
+        "2026-09-06 13:00": {
+          "ランダム": {
+            "min": 24000,
+            "median": 32000,
+            "avg": 41709,
+            "count": 11
+          },
+          "番手": {
+            "min": 25000,
+            "median": 50000,
+            "avg": 54312,
+            "count": 16
+          },
+          "同行": {
+            "min": 55000,
+            "median": 61500,
+            "avg": 62000,
+            "count": 8
+          },
+          "QR": {
+            "min": 53000,
+            "median": 60000,
+            "avg": 57889,
+            "count": 9
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 48000,
+            "median": 62000,
+            "avg": 61125,
+            "count": 8
+          }
+        },
+        "2026-09-06 17:30": {
+          "ランダム": {
+            "min": 24000,
+            "median": 27500,
+            "avg": 30890,
+            "count": 10
+          },
+          "番手": {
+            "min": 35000,
+            "median": 45000,
+            "avg": 47614,
+            "count": 22
+          },
+          "同行": {
+            "min": 40000,
+            "median": 50000,
+            "avg": 51400,
+            "count": 5
+          },
+          "QR": {
+            "min": 48000,
+            "median": 51000,
+            "avg": 58421,
+            "count": 19
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 70000,
+            "median": 70000,
+            "avg": 70000,
+            "count": 1
+          }
+        },
+        "2026-09-19 13:30": {
+          "ランダム": {
+            "min": 31100,
+            "median": 37750,
+            "avg": 36650,
+            "count": 4
+          },
+          "番手": {
+            "min": 59000,
+            "median": 70000,
+            "avg": 68800,
+            "count": 5
+          },
+          "同行": {
+            "min": 79000,
+            "median": 80000,
+            "avg": 82600,
+            "count": 5
+          },
+          "QR": {
+            "min": 72000,
+            "median": 72000,
+            "avg": 72000,
+            "count": 1
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 49000,
+            "median": 89000,
+            "avg": 79333,
+            "count": 3
+          }
+        },
+        "2026-09-19 18:00": {
+          "ランダム": {
+            "min": 32000,
+            "median": 47000,
+            "avg": 57200,
+            "count": 5
+          },
+          "番手": {
+            "min": 55000,
+            "median": 70000,
+            "avg": 65333,
+            "count": 3
+          },
+          "同行": {
+            "min": 75000,
+            "median": 80000,
+            "avg": 83333,
+            "count": 3
+          },
+          "QR": {
+            "min": 70000,
+            "median": 80000,
+            "avg": 82250,
+            "count": 8
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 100000,
+            "median": 100000,
+            "avg": 100000,
+            "count": 1
+          }
+        },
+        "2026-09-20 13:00": {
+          "ランダム": {
+            "min": 10500,
+            "median": 32000,
+            "avg": 28500,
+            "count": 3
+          },
+          "番手": {
+            "min": 69000,
+            "median": 75000,
+            "avg": 76850,
+            "count": 6
+          },
+          "同行": {
+            "min": 75000,
+            "median": 87500,
+            "avg": 87500,
+            "count": 6
+          },
+          "QR": {
+            "min": 74000,
+            "median": 77750,
+            "avg": 79550,
+            "count": 10
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          }
+        },
+        "2026-09-20 17:30": {
+          "ランダム": {
+            "min": 20000,
+            "median": 40000,
+            "avg": 50818,
+            "count": 11
+          },
+          "番手": {
+            "min": 20000,
+            "median": 78000,
+            "avg": 64429,
+            "count": 7
+          },
+          "同行": {
+            "min": 20000,
+            "median": 90000,
+            "avg": 76000,
+            "count": 5
+          },
+          "QR": {
+            "min": 87000,
+            "median": 88000,
+            "avg": 87667,
+            "count": 3
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          }
+        },
+        "2026-09-21 14:00": {
+          "ランダム": {
+            "min": 18000,
+            "median": 55000,
+            "avg": 48100,
+            "count": 5
+          },
+          "番手": {
+            "min": 20000,
+            "median": 65000,
+            "avg": 67571,
+            "count": 14
+          },
+          "同行": {
+            "min": 20000,
+            "median": 80500,
+            "avg": 67750,
+            "count": 4
+          },
+          "QR": {
+            "min": 65000,
+            "median": 80000,
+            "avg": 80750,
+            "count": 4
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 100000,
+            "median": 100000,
+            "avg": 100000,
+            "count": 1
+          }
+        },
+        "2026-10-10 13:30": {
+          "ランダム": {
+            "min": 32000,
+            "median": 40000,
+            "avg": 49250,
+            "count": 4
+          },
+          "番手": {
+            "min": 53000,
+            "median": 70000,
+            "avg": 64333,
+            "count": 3
+          },
+          "同行": {
+            "min": 60000,
+            "median": 85000,
+            "avg": 76667,
+            "count": 3
+          },
+          "QR": {
+            "min": 68000,
+            "median": 76250,
+            "avg": 75125,
+            "count": 4
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          }
+        },
+        "2026-10-10 18:00": {
+          "ランダム": {
+            "min": 32000,
+            "median": 43000,
+            "avg": 50750,
+            "count": 4
+          },
+          "番手": {
+            "min": 63000,
+            "median": 65000,
+            "avg": 65333,
+            "count": 3
+          },
+          "同行": {
+            "min": 80000,
+            "median": 83000,
+            "avg": 82667,
+            "count": 3
+          },
+          "QR": {
+            "min": 80000,
+            "median": 80000,
+            "avg": 80000,
+            "count": 1
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          }
+        },
+        "2026-10-11 13:00": {
+          "ランダム": {
+            "min": 32000,
+            "median": 72000,
+            "avg": 60400,
+            "count": 5
+          },
+          "番手": {
+            "min": 61000,
+            "median": 63000,
+            "avg": 63000,
+            "count": 2
+          },
+          "同行": {
+            "min": 90000,
+            "median": 90000,
+            "avg": 90000,
+            "count": 1
+          },
+          "QR": {
+            "min": 70000,
+            "median": 75000,
+            "avg": 75000,
+            "count": 3
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 75000,
+            "median": 75000,
+            "avg": 75000,
+            "count": 1
+          }
+        },
+        "2026-10-11 17:30": {
+          "ランダム": {
+            "min": 32000,
+            "median": 47500,
+            "avg": 53333,
+            "count": 6
+          },
+          "番手": {
+            "min": 65000,
+            "median": 72500,
+            "avg": 72500,
+            "count": 2
+          },
+          "同行": {
+            "min": 78000,
+            "median": 82500,
+            "avg": 84500,
+            "count": 4
+          },
+          "QR": {
+            "min": 75000,
+            "median": 81000,
+            "avg": 81000,
+            "count": 2
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 80000,
+            "median": 80000,
+            "avg": 80000,
+            "count": 1
+          }
+        },
+        "2026-10-12 14:00": {
+          "ランダム": {
+            "min": 30000,
+            "median": 53500,
+            "avg": 52550,
+            "count": 10
+          },
+          "番手": {
+            "min": 58000,
+            "median": 70000,
+            "avg": 69600,
+            "count": 5
+          },
+          "同行": {
+            "min": 70000,
+            "median": 75000,
+            "avg": 74000,
+            "count": 5
+          },
+          "QR": {
+            "min": 70000,
+            "median": 75000,
+            "avg": 73600,
+            "count": 5
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 72000,
+            "median": 72000,
+            "avg": 72000,
+            "count": 1
+          }
+        },
+        "2026-10-24 13:00": {
+          "ランダム": {
+            "min": 39000,
+            "median": 60000,
+            "avg": 54667,
+            "count": 3
+          },
+          "番手": {
+            "min": 55000,
+            "median": 56000,
+            "avg": 58667,
+            "count": 3
+          },
+          "同行": {
+            "min": 63000,
+            "median": 70000,
+            "avg": 71400,
+            "count": 5
+          },
+          "QR": {
+            "min": 60000,
+            "median": 60000,
+            "avg": 65000,
+            "count": 3
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 36500,
+            "median": 42500,
+            "avg": 46333,
+            "count": 3
+          }
+        },
+        "2026-10-24 18:00": {
+          "ランダム": {
+            "min": 64000,
+            "median": 64000,
+            "avg": 64000,
+            "count": 1
+          },
+          "番手": {
+            "min": 37000,
+            "median": 50000,
+            "avg": 52429,
+            "count": 7
+          },
+          "同行": {
+            "min": 60000,
+            "median": 63000,
+            "avg": 64333,
+            "count": 3
+          },
+          "QR": {
+            "min": 50000,
+            "median": 60000,
+            "avg": 60750,
+            "count": 8
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 33000,
+            "median": 59000,
+            "avg": 59000,
+            "count": 2
+          }
+        },
+        "2026-10-25 12:30": {
+          "ランダム": {
+            "min": 38000,
+            "median": 46500,
+            "avg": 46500,
+            "count": 2
+          },
+          "番手": {
+            "min": 49000,
+            "median": 49000,
+            "avg": 49000,
+            "count": 2
+          },
+          "同行": {
+            "min": 30000,
+            "median": 41500,
+            "avg": 41500,
+            "count": 2
+          },
+          "QR": {
+            "min": 60000,
+            "median": 66500,
+            "avg": 67000,
+            "count": 4
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 36500,
+            "median": 53750,
+            "avg": 54750,
+            "count": 4
+          }
+        },
+        "2026-10-25 17:30": {
+          "ランダム": {
+            "min": 65000,
+            "median": 65000,
+            "avg": 65000,
+            "count": 1
+          },
+          "番手": {
+            "min": 49900,
+            "median": 49900,
+            "avg": 49900,
+            "count": 1
+          },
+          "同行": {
+            "min": 56000,
+            "median": 59500,
+            "avg": 59500,
+            "count": 2
+          },
+          "QR": {
+            "min": 70000,
+            "median": 80000,
+            "avg": 79000,
+            "count": 5
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 38500,
+            "median": 85000,
+            "avg": 77300,
+            "count": 5
+          }
+        },
+        "2026-10-26 18:00": {
+          "ランダム": {
+            "min": 29000,
+            "median": 29000,
+            "avg": 29000,
+            "count": 1
+          },
+          "番手": {
+            "min": 50000,
+            "median": 55000,
+            "avg": 58800,
+            "count": 5
+          },
+          "同行": {
+            "min": 20683,
+            "median": 65000,
+            "avg": 59768,
+            "count": 10
+          },
+          "QR": {
+            "min": 55000,
+            "median": 62500,
+            "avg": 63875,
+            "count": 8
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 27000,
+            "median": 48000,
+            "avg": 48250,
+            "count": 4
+          }
+        },
+        "2026-10-27 13:00": {
+          "ランダム": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "番手": {
+            "min": 40000,
+            "median": 55000,
+            "avg": 54500,
+            "count": 4
+          },
+          "同行": {
+            "min": 50000,
+            "median": 70000,
+            "avg": 69000,
+            "count": 7
+          },
+          "QR": {
+            "min": 75000,
+            "median": 80000,
+            "avg": 78333,
+            "count": 3
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 34000,
+            "median": 59500,
+            "avg": 59500,
+            "count": 2
+          }
+        },
+        "2026-10-27 18:00": {
+          "ランダム": {
+            "min": 55000,
+            "median": 55000,
+            "avg": 55000,
+            "count": 1
+          },
+          "番手": {
+            "min": 49000,
+            "median": 60000,
+            "avg": 62900,
+            "count": 10
+          },
+          "同行": {
+            "min": 60000,
+            "median": 80000,
+            "avg": 76000,
+            "count": 5
+          },
+          "QR": {
+            "min": 54980,
+            "median": 56500,
+            "avg": 60497,
+            "count": 6
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 36000,
+            "median": 67500,
+            "avg": 65250,
+            "count": 4
+          }
+        },
+        "2026-10-28 15:00": {
+          "ランダム": {
+            "min": 53000,
+            "median": 77500,
+            "avg": 75900,
+            "count": 10
+          },
+          "番手": {
+            "min": 30000,
+            "median": 67500,
+            "avg": 67457,
+            "count": 14
+          },
+          "同行": {
+            "min": 75000,
+            "median": 85000,
+            "avg": 83667,
+            "count": 9
+          },
+          "QR": {
+            "min": 69999,
+            "median": 78000,
+            "avg": 78750,
+            "count": 14
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 47500,
+            "median": 48000,
+            "avg": 48000,
+            "count": 2
+          }
+        }
+      },
+      "by_date_category_sold": {
+        "2026-08-05 13:00": {
+          "ランダム": {
+            "min": 25000,
+            "median": 30750,
+            "avg": 34417,
+            "count": 6
+          },
+          "番手": {
+            "min": 48000,
+            "median": 48000,
+            "avg": 48000,
+            "count": 1
+          },
+          "同行": {
+            "min": 45000,
+            "median": 55000,
+            "avg": 55000,
+            "count": 2
+          },
+          "QR": {
+            "min": 4500,
+            "median": 55250,
+            "avg": 49417,
+            "count": 12
+          },
+          "立見": {
+            "min": 2500,
+            "median": 3450,
+            "avg": 6020,
+            "count": 10
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 22000,
+            "median": 42450,
+            "avg": 44225,
+            "count": 4
+          }
+        },
+        "2026-08-05 18:00": {
+          "ランダム": {
+            "min": 34000,
+            "median": 37000,
+            "avg": 39900,
+            "count": 11
+          },
+          "番手": {
+            "min": 49000,
+            "median": 55000,
+            "avg": 55000,
+            "count": 5
+          },
+          "同行": {
+            "min": 15000,
+            "median": 60000,
+            "avg": 50200,
+            "count": 5
+          },
+          "QR": {
+            "min": 4500,
+            "median": 55500,
+            "avg": 53475,
+            "count": 20
+          },
+          "立見": {
+            "min": 2980,
+            "median": 9000,
+            "avg": 10585,
+            "count": 8
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 34900,
+            "median": 45950,
+            "avg": 45950,
+            "count": 2
+          }
+        },
+        "2026-08-06 13:00": {
+          "ランダム": {
+            "min": 40000,
+            "median": 40000,
+            "avg": 40000,
+            "count": 1
+          },
+          "番手": {
+            "min": 10400,
+            "median": 58000,
+            "avg": 46817,
+            "count": 5
+          },
+          "同行": {
+            "min": 55000,
+            "median": 56500,
+            "avg": 58250,
+            "count": 4
+          },
+          "QR": {
+            "min": 9500,
+            "median": 52000,
+            "avg": 47936,
+            "count": 11
+          },
+          "立見": {
+            "min": 3500,
+            "median": 5250,
+            "avg": 6812,
+            "count": 8
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 20000,
+            "median": 53000,
+            "avg": 47000,
+            "count": 4
+          }
+        },
+        "2026-08-06 18:00": {
+          "ランダム": {
+            "min": 31500,
+            "median": 33250,
+            "avg": 33250,
+            "count": 2
+          },
+          "番手": {
+            "min": 45000,
+            "median": 59000,
+            "avg": 54667,
+            "count": 3
+          },
+          "同行": {
+            "min": 54000,
+            "median": 59000,
+            "avg": 61600,
+            "count": 5
+          },
+          "QR": {
+            "min": 4500,
+            "median": 58500,
+            "avg": 53208,
+            "count": 12
+          },
+          "立見": {
+            "min": 3500,
+            "median": 3900,
+            "avg": 7571,
+            "count": 7
+          },
+          "一般": {
+            "min": 22000,
+            "median": 22000,
+            "avg": 22000,
+            "count": 1
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 19000,
+            "median": 59000,
+            "avg": 49857,
+            "count": 7
+          }
+        },
+        "2026-08-07 13:00": {
+          "ランダム": {
+            "min": 37000,
+            "median": 48000,
+            "avg": 54800,
+            "count": 5
+          },
+          "番手": {
+            "min": 10000,
+            "median": 56000,
+            "avg": 51414,
+            "count": 7
+          },
+          "同行": {
+            "min": 22000,
+            "median": 62000,
+            "avg": 56833,
+            "count": 6
+          },
+          "QR": {
+            "min": 13500,
+            "median": 65000,
+            "avg": 59214,
+            "count": 7
+          },
+          "立見": {
+            "min": 4500,
+            "median": 6000,
+            "avg": 9000,
+            "count": 7
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 30000,
+            "median": 53950,
+            "avg": 51975,
+            "count": 4
+          }
+        },
+        "2026-08-07 18:00": {
+          "ランダム": {
+            "min": 33000,
+            "median": 35000,
+            "avg": 35614,
+            "count": 7
+          },
+          "番手": {
+            "min": 42000,
+            "median": 61000,
+            "avg": 58000,
+            "count": 6
+          },
+          "同行": {
+            "min": 50000,
+            "median": 65500,
+            "avg": 65667,
+            "count": 12
+          },
+          "QR": {
+            "min": 57000,
+            "median": 65500,
+            "avg": 67022,
+            "count": 14
+          },
+          "立見": {
+            "min": 3500,
+            "median": 10000,
+            "avg": 12818,
+            "count": 11
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 3110,
+            "median": 61500,
+            "avg": 49146,
+            "count": 12
+          }
+        },
+        "2026-08-15 13:30": {
+          "ランダム": {
+            "min": 67200,
+            "median": 67200,
+            "avg": 67200,
+            "count": 1
+          },
+          "番手": {
+            "min": 47000,
+            "median": 47000,
+            "avg": 47000,
+            "count": 1
+          },
+          "同行": {
+            "min": 45000,
+            "median": 59500,
+            "avg": 60500,
+            "count": 4
+          },
+          "QR": {
+            "min": 55000,
+            "median": 68500,
+            "avg": 67875,
+            "count": 8
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 65000,
+            "median": 69500,
+            "avg": 69750,
+            "count": 4
+          }
+        },
+        "2026-08-15 18:00": {
+          "ランダム": {
+            "min": 38000,
+            "median": 42000,
+            "avg": 43333,
+            "count": 3
+          },
+          "番手": {
+            "min": 31000,
+            "median": 43333,
+            "avg": 47140,
+            "count": 5
+          },
+          "同行": {
+            "min": 47000,
+            "median": 65000,
+            "avg": 61000,
+            "count": 5
+          },
+          "QR": {
+            "min": 51000,
+            "median": 70000,
+            "avg": 70871,
+            "count": 17
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 35000,
+            "median": 52500,
+            "avg": 52500,
+            "count": 2
+          }
+        },
+        "2026-08-16 13:00": {
+          "ランダム": {
+            "min": 35000,
+            "median": 55000,
+            "avg": 56000,
+            "count": 6
+          },
+          "番手": {
+            "min": 25000,
+            "median": 46000,
+            "avg": 42333,
+            "count": 6
+          },
+          "同行": {
+            "min": 63000,
+            "median": 72000,
+            "avg": 72667,
+            "count": 3
+          },
+          "QR": {
+            "min": 60000,
+            "median": 68000,
+            "avg": 67667,
+            "count": 3
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 43000,
+            "median": 60000,
+            "avg": 81000,
+            "count": 3
+          }
+        },
+        "2026-08-16 17:30": {
+          "ランダム": {
+            "min": 50000,
+            "median": 50000,
+            "avg": 50000,
+            "count": 1
+          },
+          "番手": {
+            "min": 42000,
+            "median": 49999,
+            "avg": 51000,
+            "count": 3
+          },
+          "同行": {
+            "min": 20000,
+            "median": 43500,
+            "avg": 43500,
+            "count": 2
+          },
+          "QR": {
+            "min": 45000,
+            "median": 50000,
+            "avg": 52972,
+            "count": 8
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 60000,
+            "median": 64000,
+            "avg": 64000,
+            "count": 2
+          }
+        },
+        "2026-08-25 18:00": {
+          "ランダム": {
+            "min": 60000,
+            "median": 62000,
+            "avg": 62000,
+            "count": 2
+          },
+          "番手": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "同行": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "QR": {
+            "min": 60000,
+            "median": 68000,
+            "avg": 66000,
+            "count": 3
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 59000,
+            "median": 59000,
+            "avg": 59000,
+            "count": 1
+          }
+        },
+        "2026-08-26 13:30": {
+          "ランダム": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "番手": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "同行": {
+            "min": 58000,
+            "median": 58000,
+            "avg": 58000,
+            "count": 1
+          },
+          "QR": {
+            "min": 60000,
+            "median": 60000,
+            "avg": 60000,
+            "count": 1
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 40000,
+            "median": 57500,
+            "avg": 57500,
+            "count": 2
+          }
+        },
+        "2026-08-26 18:00": {
+          "ランダム": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "番手": {
+            "min": 40000,
+            "median": 40000,
+            "avg": 40000,
+            "count": 1
+          },
+          "同行": {
+            "min": 60000,
+            "median": 62500,
+            "avg": 62500,
+            "count": 2
+          },
+          "QR": {
+            "min": 50000,
+            "median": 59500,
+            "avg": 60625,
+            "count": 8
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 60000,
+            "median": 60000,
+            "avg": 60000,
+            "count": 1
+          }
+        },
+        "2026-09-05 13:30": {
+          "ランダム": {
+            "min": 45000,
+            "median": 45000,
+            "avg": 45000,
+            "count": 1
+          },
+          "番手": {
+            "min": 50000,
+            "median": 50000,
+            "avg": 50000,
+            "count": 1
+          },
+          "同行": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "QR": {
+            "min": 49000,
+            "median": 51000,
+            "avg": 51000,
+            "count": 2
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 11375,
+            "median": 40000,
+            "avg": 38792,
+            "count": 3
+          }
+        },
+        "2026-09-05 18:00": {
+          "ランダム": {
+            "min": 48000,
+            "median": 48000,
+            "avg": 48000,
+            "count": 1
+          },
+          "番手": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "同行": {
+            "min": 47000,
+            "median": 50000,
+            "avg": 49667,
+            "count": 3
+          },
+          "QR": {
+            "min": 47000,
+            "median": 51000,
+            "avg": 51167,
+            "count": 6
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 22000,
+            "median": 22000,
+            "avg": 22000,
+            "count": 1
+          }
+        },
+        "2026-09-06 13:00": {
+          "ランダム": {
+            "min": 30000,
+            "median": 45000,
+            "avg": 45000,
+            "count": 2
+          },
+          "番手": {
+            "min": 32000,
+            "median": 32000,
+            "avg": 32000,
+            "count": 1
+          },
+          "同行": {
+            "min": 50000,
+            "median": 50000,
+            "avg": 50000,
+            "count": 1
+          },
+          "QR": {
+            "min": 55000,
+            "median": 56500,
+            "avg": 56500,
+            "count": 2
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 29800,
+            "median": 55000,
+            "avg": 47600,
+            "count": 3
+          }
+        },
+        "2026-09-06 17:30": {
+          "ランダム": {
+            "min": 50000,
+            "median": 50000,
+            "avg": 50000,
+            "count": 1
+          },
+          "番手": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "同行": {
+            "min": 48000,
+            "median": 48500,
+            "avg": 48500,
+            "count": 2
+          },
+          "QR": {
+            "min": 43000,
+            "median": 49000,
+            "avg": 50667,
+            "count": 3
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          }
+        },
+        "2026-09-19 13:30": {
+          "ランダム": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "番手": {
+            "min": 60000,
+            "median": 60000,
+            "avg": 60000,
+            "count": 1
+          },
+          "同行": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "QR": {
+            "min": 78500,
+            "median": 78500,
+            "avg": 78500,
+            "count": 1
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 43000,
+            "median": 44000,
+            "avg": 44000,
+            "count": 4
+          }
+        },
+        "2026-09-19 18:00": {
+          "ランダム": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "番手": {
+            "min": 41365,
+            "median": 50682,
+            "avg": 50682,
+            "count": 2
+          },
+          "同行": {
+            "min": 70000,
+            "median": 70000,
+            "avg": 70000,
+            "count": 1
+          },
+          "QR": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 43000,
+            "median": 45000,
+            "avg": 45667,
+            "count": 3
+          }
+        },
+        "2026-09-20 13:00": {
+          "ランダム": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "番手": {
+            "min": 70000,
+            "median": 70000,
+            "avg": 70000,
+            "count": 1
+          },
+          "同行": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "QR": {
+            "min": 77000,
+            "median": 77000,
+            "avg": 77000,
+            "count": 1
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 45000,
+            "median": 45000,
+            "avg": 45000,
+            "count": 2
+          }
+        },
+        "2026-09-20 17:30": {
+          "ランダム": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "番手": {
+            "min": 62000,
+            "median": 63250,
+            "avg": 63250,
+            "count": 2
+          },
+          "同行": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "QR": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 75000,
+            "median": 77000,
+            "avg": 77000,
+            "count": 2
+          }
+        },
+        "2026-09-21 14:00": {
+          "ランダム": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "番手": {
+            "min": 41365,
+            "median": 63000,
+            "avg": 56455,
+            "count": 3
+          },
+          "同行": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "QR": {
+            "min": 75000,
+            "median": 75000,
+            "avg": 76667,
+            "count": 3
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 80000,
+            "median": 80000,
+            "avg": 80000,
+            "count": 1
+          }
+        },
+        "2026-10-10 13:30": {
+          "ランダム": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "番手": {
+            "min": 63000,
+            "median": 63000,
+            "avg": 63000,
+            "count": 1
+          },
+          "同行": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "QR": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          }
+        },
+        "2026-10-10 18:00": {
+          "ランダム": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "番手": {
+            "min": 50000,
+            "median": 50000,
+            "avg": 50000,
+            "count": 1
+          },
+          "同行": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "QR": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 75000,
+            "median": 75000,
+            "avg": 75000,
+            "count": 1
+          }
+        },
+        "2026-10-11 13:00": {
+          "ランダム": {
+            "min": 70000,
+            "median": 70000,
+            "avg": 70000,
+            "count": 2
+          },
+          "番手": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "同行": {
+            "min": 75000,
+            "median": 75000,
+            "avg": 75000,
+            "count": 1
+          },
+          "QR": {
+            "min": 68000,
+            "median": 70000,
+            "avg": 71000,
+            "count": 3
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          }
+        },
+        "2026-10-11 17:30": {
+          "ランダム": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "番手": {
+            "min": 56000,
+            "median": 56000,
+            "avg": 56000,
+            "count": 1
+          },
+          "同行": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "QR": {
+            "min": 75000,
+            "median": 75000,
+            "avg": 76667,
+            "count": 3
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 45000,
+            "median": 45000,
+            "avg": 45000,
+            "count": 1
+          }
+        },
+        "2026-10-12 14:00": {
+          "ランダム": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "番手": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "同行": {
+            "min": 65000,
+            "median": 65000,
+            "avg": 65000,
+            "count": 1
+          },
+          "QR": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 64000,
+            "median": 64000,
+            "avg": 64000,
+            "count": 1
+          }
+        },
+        "2026-10-24 13:00": {
+          "ランダム": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "番手": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "同行": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "QR": {
+            "min": 60000,
+            "median": 60000,
+            "avg": 60000,
+            "count": 1
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          }
+        },
+        "2026-10-24 18:00": {
+          "ランダム": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "番手": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "同行": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "QR": {
+            "min": 25000,
+            "median": 37500,
+            "avg": 37500,
+            "count": 2
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 34000,
+            "median": 35500,
+            "avg": 35500,
+            "count": 2
+          }
+        },
+        "2026-10-25 12:30": {
+          "ランダム": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "番手": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "同行": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "QR": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          }
+        },
+        "2026-10-25 17:30": {
+          "ランダム": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "番手": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "同行": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "QR": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          }
+        },
+        "2026-10-26 18:00": {
+          "ランダム": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "番手": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "同行": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "QR": {
+            "min": 54000,
+            "median": 54000,
+            "avg": 54000,
+            "count": 1
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          }
+        },
+        "2026-10-27 13:00": {
+          "ランダム": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "番手": {
+            "min": 40000,
+            "median": 42500,
+            "avg": 42500,
+            "count": 2
+          },
+          "同行": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "QR": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 28000,
+            "median": 32000,
+            "avg": 31667,
+            "count": 3
+          }
+        },
+        "2026-10-27 18:00": {
+          "ランダム": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "番手": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "同行": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "QR": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 50000,
+            "median": 50000,
+            "avg": 50000,
+            "count": 1
+          }
+        },
+        "2026-10-28 15:00": {
+          "ランダム": {
+            "min": 73000,
+            "median": 74000,
+            "avg": 74000,
+            "count": 2
+          },
+          "番手": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "同行": {
+            "min": 50000,
+            "median": 78000,
+            "avg": 74400,
+            "count": 5
+          },
+          "QR": {
+            "min": 69000,
+            "median": 70500,
+            "avg": 72250,
+            "count": 4
+          },
+          "立見": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "一般": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "制作開放席": {
+            "min": null,
+            "median": null,
+            "avg": null,
+            "count": 0
+          },
+          "Others": {
+            "min": 52222,
+            "median": 63611,
+            "avg": 63611,
+            "count": 2
+          }
+        }
+      }
+    }
   }
 ]
