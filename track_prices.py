@@ -619,7 +619,10 @@ DASHBOARD_TEMPLATE = """<!DOCTYPE html>
   </div>
 
   <h2>公演日別トレンド（出品中・中央値）</h2>
-  <select id="dateSelect"></select>
+  <div class="filter-row">
+    <select id="dateSelect"></select>
+    <select id="perDateCategorySelect"></select>
+  </div>
   <div class="chart-panel">
     __PERDATE_CHART_OR_EMPTY__
   </div>
@@ -687,7 +690,7 @@ if (history.length > 0) {
     }
   });
 
-  // ---- Per-date trend chart ----
+  // ---- Per-date trend chart (filterable by category; always on-sale only) ----
   const dateKeySet = new Set();
   history.forEach(day => {
     ['ticketjam', 'ticketen'].forEach(site => {
@@ -704,17 +707,41 @@ if (history.length > 0) {
     select.appendChild(opt);
   });
 
+  const perDateCategorySelect = document.getElementById('perDateCategorySelect');
+
+  const PERDATE_CATEGORY_OPTIONS = [['__ALL__', 'すべてのカテゴリー'], ...CATEGORY_ORDER.map(c => [c, c])];
+  PERDATE_CATEGORY_OPTIONS.forEach(([value, text]) => {
+    const opt = document.createElement('option');
+    opt.value = value;
+    opt.textContent = text;
+    perDateCategorySelect.appendChild(opt);
+  });
+
+  // Picks the right by_date* bucket (on-sale only) given the current
+  // category filter, and returns that date's median for one day of history
+  // (or null if nothing recorded).
+  function getPerDateMedian(entry, dateKey, category) {
+    const bucket = category === '__ALL__' ? entry.by_date : entry.by_date_category;
+    if (!bucket) return null;
+    const stats = category === '__ALL__' ? (bucket[dateKey] || {}) : ((bucket[dateKey] || {})[category] || {});
+    return stats.median ?? null;
+  }
+
   let perDateChart = null;
   function renderPerDateChart(dateKey) {
-    const jamSeries = history.map(day => (day.ticketjam.by_date || {})[dateKey]?.median ?? null);
-    const tenSeries = history.map(day => (day.ticketen.by_date || {})[dateKey]?.median ?? null);
+    const category = perDateCategorySelect.value;
+    const jamSeries = history.map(day => getPerDateMedian(day.ticketjam, dateKey, category));
+    const tenSeries = history.map(day => getPerDateMedian(day.ticketen, dateKey, category));
+
+    const categorySuffix = category === '__ALL__' ? '' : ` - ${category}`;
+
     const cfg = {
       type: 'line',
       data: {
         labels: history.map(r => r.date),
         datasets: [
-          { label: 'チケジャム 中央値', data: jamSeries, borderColor: '#ff6a5c', backgroundColor: '#ff6a5c', tension: 0.25, spanGaps: true },
-          { label: 'チケテン 中央値（出品中）', data: tenSeries, borderColor: '#4fd6c4', backgroundColor: '#4fd6c4', tension: 0.25, spanGaps: true },
+          { label: `チケジャム 中央値${categorySuffix}`, data: jamSeries, borderColor: '#ff6a5c', backgroundColor: '#ff6a5c', tension: 0.25, spanGaps: true },
+          { label: `チケテン 中央値（出品中）${categorySuffix}`, data: tenSeries, borderColor: '#4fd6c4', backgroundColor: '#4fd6c4', tension: 0.25, spanGaps: true },
         ]
       },
       options: {
@@ -770,6 +797,7 @@ if (history.length > 0) {
       renderPerDateChart(select.value);
       renderPerDateCategoryTable(select.value);
     });
+    perDateCategorySelect.addEventListener('change', () => renderPerDateChart(select.value));
   }
 
   // ---- Latest snapshot table (per date), filterable by category + status ----
